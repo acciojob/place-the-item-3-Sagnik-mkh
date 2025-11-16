@@ -2,7 +2,7 @@
     .holder {
       display: flex;              /* enable flexbox */
       flex-wrap: wrap;            /* allow items to wrap to next line */
-      justify-content: space-between;  /* evenly space items */
+      justify-content: space-evenly;  /* evenly space items */
       gap: 16px;                  /* spacing between items */
       padding: 20px;
       background-color: #f0f0f0;
