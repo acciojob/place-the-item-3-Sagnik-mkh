@@ -1,2 +1,20 @@
-
 /* Your CSS Code here. */
+    .holder {
+      display: flex;              /* enable flexbox */
+      flex-wrap: wrap;            /* allow items to wrap to next line */
+      justify-content: space-between;  /* evenly space items */
+      gap: 16px;                  /* spacing between items */
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    /* Flex items */
+    .holder > div {
+      flex: 1 1 150px;           /* grow, shrink, base width */
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      border-radius: 8px;
+      font-size: 16px;
+    }
